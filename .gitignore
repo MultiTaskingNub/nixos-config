@@ -1,2 +1,3 @@
 secrets.nix
 .direnv/
+hardware-configuration.nix
