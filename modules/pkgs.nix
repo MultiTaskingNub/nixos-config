@@ -1,0 +1,42 @@
+{
+  config,
+  lib,
+  pkgs,
+  ...
+}:
+
+{
+  environment.systemPackages = with pkgs; [
+    wine64
+    steamcmd
+    discord
+    obsidian
+    prismlauncher
+    xclip
+    picom
+    lutris
+    maim
+    brave
+    fzf
+    bluez
+    kitty
+    lf
+    feh
+    starship
+    pavucontrol
+    papirus-icon-theme
+    virt-manager
+    qemu
+    libvirt
+    spice-gtk
+    spice-protocol
+    OVMF
+    wget
+    multitail
+    zoxide
+    tree
+    trash-cli
+    bash-completion
+    fastfetch
+  ];
+}
