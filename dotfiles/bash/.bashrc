@@ -638,5 +638,5 @@ exec startx
 
 fi
 
-
+alias nixos="cd /home/multitasker/nixos/"
 eval "$(direnv hook bash)"
