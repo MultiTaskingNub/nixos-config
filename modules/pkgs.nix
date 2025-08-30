@@ -38,5 +38,6 @@
     trash-cli
     bash-completion
     fastfetch
+    stremio
   ];
 }

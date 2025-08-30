@@ -44,7 +44,7 @@
   networking.networkmanager.wifi.powersave = false;
 
   hardware.bluetooth = {
-    enable = false;
+    enable = true;
     powerOnBoot = false;
     settings = {
       General = {
@@ -198,4 +198,6 @@
   environment.shellAliases = {
     brave = "brave --password-store=basic";
   };
+
+
 }
