@@ -14,6 +14,7 @@
     ./modules/programs.nix
     ./modules/services.nix
     ./modules/firewall.nix
+    ./modules/power.nix
   ];
 
   # Bootloader.
